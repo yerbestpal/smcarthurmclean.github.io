@@ -18,17 +18,21 @@ header {
 
 header h1 {
     padding: 100px 50px 50px 50px;
-    font-family: Video-Light;
+    /*font-family: ;*/
     font-size: 4em;
     font-style: italic;
     text-decoration: underline;
     text-align: left;
 }
 
-.pink-bg {
+.bg-pink {
 	background-color: rgba(229, 74, 114, 1.0);
 }
 
-.pink-bg-darker {
+.pink-text {
+    color: rgba(229, 74, 114, 1.0);
+}
+
+.bg-pink-darker {
 	background-color: rgba(229, 74, 114, 0.9);
 }
