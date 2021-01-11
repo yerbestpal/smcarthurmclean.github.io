@@ -3,8 +3,8 @@
 @font-face {
     font-family: 'Gilroy-ExtraBold';
     src: local('Gilroy Extra Bold'), local('Gilroy-Extra-Bold'),
-    url('media/fonts/Gilroy-ExtraBold/font.woff2') format('woff2'),
-    url('media/fonts/Gilroy-ExtraBold/font.woff') format('woff');
+    url('../media/fonts/Gilroy-ExtraBold/font.woff2') format('woff2'),
+    url('../media/fonts/Gilroy-ExtraBold/font.woff') format('woff');
 }
 
 h1, h2, h3, h4 {
@@ -16,7 +16,7 @@ p {
 }
 
 header {
-    background-image: url("./media/images/bg_banner.png");
+    background-image: url("../media/images/bg_banner.png");
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
