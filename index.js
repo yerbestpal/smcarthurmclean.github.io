@@ -11,7 +11,7 @@ $(function () {
 })
 
 function collapseExpandNav () {
-  var x = document.getElementById('navbar-top')
+  const x = document.getElementById('navbar-top')
   if (x.className === 'navbar') {
     x.className += ' responsive'
   } else {
