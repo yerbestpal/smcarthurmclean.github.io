@@ -1,13 +1,19 @@
-/*Leaving this here to demonstrate basic font rules*/
-/*@font-face {*/
-/*    font-family: 'Video-Bold';*/
-/*    src: local('Video Cond Bold'), local('Video-Cond-Bold'),*/
-/*    url('./media/fonts/videoCond/bold/VideoCond-Bold.woff2') format('woff2'),*/
-/*    url('./media/fonts/videoCond/bold/VideoCond-Bold.woff') format('woff'),*/
-/*    url('./media/fonts/videoCond/bold/VideoCond-Bold.ttf') format('truetype');*/
-/*    font-weight: 700;*/
-/*    font-style: normal;*/
-/*}*/
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: local('Gilroy Extra Bold'), local('Gilroy-Extra-Bold'),
+    url('media/fonts/Gilroy-ExtraBold/font.woff2') format('woff2'),
+    url('media/fonts/Gilroy-ExtraBold/font.woff') format('woff');
+}
+
+h1, h2, h3, h4 {
+    font-family: Gilroy-ExtraBold;
+}
+
+p {
+    font-family: 'Jura', sans-serif;
+}
 
 header {
     background-image: url("./media/images/bg_banner.png");
@@ -18,10 +24,9 @@ header {
 
 header h1 {
     padding: 100px 50px 50px 50px;
-    /*font-family: ;*/
     font-size: 4em;
-    font-style: italic;
-    text-decoration: underline;
+    /*font-style: italic;*/
+    /*text-decoration: underline;*/
     text-align: left;
 }
 
