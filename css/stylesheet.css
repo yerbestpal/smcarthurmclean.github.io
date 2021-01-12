@@ -31,7 +31,7 @@ header h1 {
 }
 
 .bg-pink {
-	background-color: rgba(229, 74, 114, 1.0);
+    background-color: rgba(229, 74, 114, 1.0);
 }
 
 .text-pink {
@@ -39,7 +39,7 @@ header h1 {
 }
 
 .bg-pink-darker {
-	background-color: rgba(229, 74, 114, 0.9);
+    background-color: rgba(229, 74, 114, 0.9);
 }
 
 .col-pad-left-50 {
