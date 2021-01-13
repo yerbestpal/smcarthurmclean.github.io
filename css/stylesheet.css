@@ -15,6 +15,18 @@ p {
     font-family: 'Jura', sans-serif;
 }
 
+a {
+    color: red;
+}
+
+h3 a {
+    color: rgba(229, 74, 114, 1.0);
+}
+
+h3 a:hover {
+    color: red;
+}
+
 header {
     background-image: url("../img/bg_banner.png");
     background-size: cover;
@@ -56,4 +68,11 @@ header h1 {
     .col-pad-right-50 {
         padding-right: 50%;
     }
+}
+
+/*Bootstrap overrides*/
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: rgba(229, 74, 114, 1.0) !important;
+    color: #FFFFFF;
+    border-color: rgba(229, 74, 114, 1.0);
 }
