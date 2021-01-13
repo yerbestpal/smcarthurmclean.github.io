@@ -11,7 +11,7 @@ h1, h2, h3, h4 {
     font-family: Gilroy-ExtraBold;
 }
 
-p {
+p, li {
     font-family: 'Jura', sans-serif;
 }
 
