@@ -11,6 +11,11 @@ h1, h2, h3, h4, h5 {
     font-family: Gilroy-ExtraBold;
 }
 
+h1 {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #FFFFFF;
+}
+
 p, li {
     font-family: 'Jura', sans-serif;
 }
@@ -58,6 +63,16 @@ header h1 {
 
 .col-pad-right-50 {
     padding-left: 0;
+}
+
+.col-pad-x-100 {
+    padding: 0 100px;
+}
+
+.img-sizes {
+    min-height: 182px;
+    min-width: 250px;
+    max-height: 182px;
 }
 
 @media (min-width: 576px) {
