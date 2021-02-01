@@ -16,11 +16,6 @@ h1, h2, h3, h4, h5 {
     font-family: Gilroy-ExtraBold;
 }
 
-h1 {
-    /*-webkit-text-stroke-width: 3px;*/
-    /*-webkit-text-stroke-color: #FFFFFF;*/
-}
-
 p, li {
     font-family: 'Jura', sans-serif;
 }
@@ -38,7 +33,7 @@ h3 a:hover {
 }
 
 header {
-    background-image: url("../img/bg_banner.png");
+    background-image: url("../img/bg_banner_lighter.png");
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
