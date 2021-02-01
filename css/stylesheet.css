@@ -24,12 +24,8 @@ p, li {
     font-weight: bold;
 }
 
-#p-current-position a {
-    color: dodgerblue;
-}
-
 a {
-    color: red;
+    color: dodgerblue;
 }
 
 h3 a {
