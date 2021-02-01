@@ -17,8 +17,8 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #FFFFFF;
+    /*-webkit-text-stroke-width: 3px;*/
+    /*-webkit-text-stroke-color: #FFFFFF;*/
 }
 
 p, li {
