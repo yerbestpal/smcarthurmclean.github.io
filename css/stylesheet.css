@@ -9,7 +9,10 @@
 
 html,body {
     min-width: 50%;
-    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5 {
