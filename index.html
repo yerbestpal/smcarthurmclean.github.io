@@ -69,11 +69,11 @@
         <img alt="A picture of Sam, brooding" class="img-fluid" id="sam-picture" src="img/sam.jpg">
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-white">
-        <p id="p-current-position">Current Position: Game Designer at Aurorian Studios working on <a href="https://store.steampowered.com/app/1465550/One_Lonely_Outpost/">One Lonely Outpost</a></p>
+        <p id="p-current-position" class="lead">Current Position: Game Designer at Aurorian Studios working on <a href="https://store.steampowered.com/app/1465550/One_Lonely_Outpost/">One Lonely Outpost</a></p>
         <p>
-            My name is Samuel Mcarthur-Mclean, I am a game designer from Glasgow and have just been awarded a First
-            Class Honours degree in Computer Games Design from Glasgow Caledonian University. I am looking for a
-            job as a game designer at an ambitious studio.
+            My name is Samuel Mcarthur-Mclean. I am a game designer from Glasgow working at Aurorian Studios on a game 
+            called One Loney Outpost. I was awarded a First Class Honours degree in Computer Games Design from Glasgow 
+            Caledonian University in 2020.
         </p>
         <p>
             In 2019 I was able to attend an event called Resonate to show off one of my games, Cyber Sphere allowing
@@ -95,6 +95,20 @@
         </p>
     </div>
 </section>
+
+<section class="row p-3 py-5 p-md-5 bg-pink">
+    <div class="col-12 d-flex justify-content-center">
+        <div class="embed-responsive embed-responsive-16by9 w-75">
+            <iframe src="https://www.youtube.com/embed/spdk1izN7AQ" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</section>
+
 <section class="row p-3 py-5 p-md-5 bg-pink">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 pb-5 text-white">
         <h2 class="py-3">Skills</h2>
@@ -141,7 +155,7 @@
             This is a game I that I worked as a designer on. Our Client, a company called We Throw Switches wanted an
             arcade game with a unique control scheme. I came up with the idea of a four-player game where the players
             would play using trackballs. This worked out well and the university even pushed the game at their showcase
-            events, which led to us being given the chance to demo it as Scotland’s biggest gaming event Resonate.
+            events, which led to us being given the chance to demo it as Scotland’s biggest gaming event, Resonate.
         </p>
         <a href="https://samuel-mcarthur-mclean.itch.io/" class="d-flex justify-content-left pt-3">
             <img src="img/itch.svg" alt="Link to games Itch.io page" class="img-fluid w-25">
@@ -305,10 +319,10 @@
     </div>
     <div class="col-12 d-flex justify-content-center">
         <p class="pb-5 px-5 mx-5">
-            The 3D city was included was inspired by modern day cities Asia. It was meant to be somewhere off the beaten
-            path, down an alley somewhere. Wires that criss-cross from building to building give it a lived in, worm out
+            The 3D city was inspired by modern day cities Asia. It was meant to be somewhere off the beaten
+            path, down an alley somewhere. Wires that criss-cross from building to building give it a lived in, worn out
             feel. A hidden garden on the roof offers a place of relaxation from the street below. It was to be
-            somewhere that the player could just explore and discovered little details, a peaceful solitary experience.
+            somewhere that the player could just explore and discover little details; a peaceful, solitary experience.
         </p>
     </div>
     <div class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center my-3">
@@ -336,7 +350,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                 <h5 class="text-uppercase">About</h5>
-                <p>© 2020 Copyright: Sam Mcarthur-McLean.<br>Made with <i class="bi bi-heart-fill"></i> by <a
+                <p>© <span id="year"></span> Copyright: Sam Mcarthur-McLean.<br>Made with <i class="bi bi-heart-fill"></i> by <a
                         href="https://github.com/yerbestpal">Ross McLean.</a> </p>
             </div>
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
@@ -384,4 +398,5 @@
     baguetteBox.run('.gallery');
   });
 </script>
+<script src="./js/setDate.js"></script>
 </html>
