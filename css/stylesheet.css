@@ -28,7 +28,11 @@ p, li {
 }
 
 a {
-    color: dodgerblue;
+    color: lightpink;
+}
+
+a:hover {
+    color: #FFFFFF;
 }
 
 h3 a {
